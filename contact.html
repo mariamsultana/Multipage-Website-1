@@ -1,0 +1,56 @@
+<!doctype></<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Contact The Royal Kingdom</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+
+</head>
+<body>
+  <header>
+    <span id="logo">
+      <img src="assets/the-argo-logo-light.png" alt="logo" class="logo" />
+    </span>
+    <ul class="nevbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="heroes.html">Royal Family </a></li>
+        <li><a href="inventory.html">Royal Assets</a></li>
+        <li><a href="contact.html"  class="active">Contact Us</a></li>
+      </ul>
+  </header>
+  <section id="history">
+  <h2>Contact Us</h2>
+  </section>
+  
+  <div id="contact">
+    <form id="contactForm">
+      <label for="name">Full Name :</label><br>
+      <input type="text" id="name" name="name" placeholder="Enter Full Name.."><br>
+      <label for="fname">Email :</label><br>
+      <input type="text" id="email" name="email" placeholder="Enter email.."><br>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other">
+      <label for="other">Other</label><br>
+      <label for="country">Country</label><br>
+      <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="bangladesh">Bangladesh</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      </select><br>
+      <label for="message">Message :</label><br>
+      <textarea id="message" name="message" placeholder=" write message"></textarea><br><br>
+      <input type="submit" value="Submit">
+    </form>
+
+  </div>
+
+  
+</body>
+<script src="script.js"></script>
+</html>
